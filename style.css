@@ -1,0 +1,56 @@
+html,body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #2989d8;
+}
+
+.container {
+    margin-top: 25vh ;
+    height: 500px;
+}
+
+.form {
+    text-align: center;
+    top: 50%;
+    margin-top: 10%;
+    float: right;
+    transform: translate(-50%,-50%);
+    padding: 2em;
+    width: 300px;
+    height: 200px;
+    background-color: #ba3c3c;
+    border: 2px dotted rgb(10, 102, 95);
+    border-radius: 3px;
+    color: red;
+
+}
+
+input[type=text] {
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    border: none;
+    background-color: rgba(21, 157, 80, 0);
+    border-bottom: 5px solid rgba(17, 47, 176, 0.82);
+    height: 40px;
+    width: 80%;
+    transition: 0.5s;
+}
+
+input[type=text]:focus {
+    width: 170px;
+
+    border-bottom: 5px outset rgba(17, 47, 176, 0.82);
+
+}
+
+.bericht {
+    margin-left: 10%;
+    margin-top: 5%;
+    float: left;
+    width: 10%;
+    height: 20%;
+    padding: 0.1em;
+    font-size: 20px;
+    border: 5px dashed green;
+}
